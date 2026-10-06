@@ -587,7 +587,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ThirdPersonCamera
   target: {fileID: 2017488365}
   distance: 6
-  height: 1.5
+  height: 3
   followSpeed: 10
   rotateSpeed: 100
 --- !u!1 &410087039
@@ -2591,11 +2591,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 76f3347a9894d487cb3c4901109c2735, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  moveForce: 3
+  moveForce: 4
   maxSpeed: 8
   jumpForce: 7
-  moveAction: {fileID: 5543333850938133838, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-  jumpAction: {fileID: 8984548526590713646, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  moveAction: {fileID: -1680190386980627800, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  jumpAction: {fileID: -2099379676528639254, guid: 052faaac586de48259a63d0c4782560b, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
