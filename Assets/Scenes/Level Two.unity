@@ -1148,6 +1148,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcee55952ca0f4c7f9307a93b8083e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReturnToLobby
+  completedLevel: 2
 --- !u!1 &597660305
 GameObject:
   m_ObjectHideFlags: 0
@@ -3614,6 +3615,7 @@ GameObject:
   - component: {fileID: 2017488362}
   - component: {fileID: 2017488361}
   - component: {fileID: 2017488366}
+  - component: {fileID: 2017488367}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -3758,6 +3760,29 @@ MonoBehaviour:
   jumpForce: 7
   moveAction: {fileID: 5543333850938133838, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   jumpAction: {fileID: 8984548526590713646, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+--- !u!114 &2017488367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017488360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eaf8e9e0b9a8481599682c29a808e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelUnlockSystem
+  levelPortals:
+  - portal: {fileID: 7192993012891402472, guid: 35240a1dda7ee4bcca7a6ca41e6a0067, type: 3}
+    levelNumber: 1
+  - portal: {fileID: 3957293996078038381, guid: 6892246f96cc14c978f39e62f85b88f5, type: 3}
+    levelNumber: 2
+  - portal: {fileID: 3620591913143127106, guid: e421ccd9554164a9db5c11a0777d5139, type: 3}
+    levelNumber: 3
+  - portal: {fileID: 6185362693581080602, guid: be152152cf01e4137baa7c783e9301f6, type: 3}
+    levelNumber: 4
+  - portal: {fileID: 6325129109287596078, guid: 3a9b47a5528c94af88ac9f0d2e3d21b1, type: 3}
+    levelNumber: 5
 --- !u!1 &2142386049
 GameObject:
   m_ObjectHideFlags: 0
@@ -3811,6 +3836,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcee55952ca0f4c7f9307a93b8083e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReturnToLobby
+  completedLevel: 1
 --- !u!23 &2142386052
 MeshRenderer:
   m_ObjectHideFlags: 0

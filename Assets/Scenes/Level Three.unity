@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 49607459}
   - component: {fileID: 49607458}
   - component: {fileID: 49607457}
+  - component: {fileID: 49607460}
   m_Layer: 0
   m_Name: Rock (28)
   m_TagString: Untagged
@@ -168,7 +169,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -231,6 +232,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 49607455}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &49607460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49607455}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &50572997
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,6 +495,7 @@ GameObject:
   - component: {fileID: 105103579}
   - component: {fileID: 105103578}
   - component: {fileID: 105103577}
+  - component: {fileID: 105103580}
   m_Layer: 0
   m_Name: Rock (34)
   m_TagString: Untagged
@@ -518,7 +533,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -581,6 +596,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 105103575}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &105103580
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 105103575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &127404350
 GameObject:
   m_ObjectHideFlags: 0
@@ -845,6 +873,7 @@ GameObject:
   - component: {fileID: 265922601}
   - component: {fileID: 265922600}
   - component: {fileID: 265922599}
+  - component: {fileID: 265922602}
   m_Layer: 0
   m_Name: Rock (23)
   m_TagString: Untagged
@@ -882,7 +911,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -945,6 +974,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 265922597}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &265922602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265922597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &268905645
 GameObject:
   m_ObjectHideFlags: 0
@@ -1114,6 +1156,7 @@ GameObject:
   - component: {fileID: 282674909}
   - component: {fileID: 282674908}
   - component: {fileID: 282674907}
+  - component: {fileID: 282674910}
   m_Layer: 0
   m_Name: Rock (36)
   m_TagString: Untagged
@@ -1151,7 +1194,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1214,6 +1257,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 282674905}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &282674910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 282674905}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &303548462
 GameObject:
   m_ObjectHideFlags: 0
@@ -1226,6 +1282,8 @@ GameObject:
   - component: {fileID: 303548466}
   - component: {fileID: 303548465}
   - component: {fileID: 303548464}
+  - component: {fileID: 303548468}
+  - component: {fileID: 303548467}
   m_Layer: 0
   m_Name: Rock (32)
   m_TagString: Untagged
@@ -1263,7 +1321,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1326,6 +1384,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 303548462}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &303548467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303548462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 0}
+--- !u!114 &303548468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 303548462}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1493,6 +1577,7 @@ GameObject:
   - component: {fileID: 379033511}
   - component: {fileID: 379033510}
   - component: {fileID: 379033509}
+  - component: {fileID: 379033512}
   m_Layer: 0
   m_Name: Rock (35)
   m_TagString: Untagged
@@ -1530,7 +1615,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -1593,6 +1678,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 379033507}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &379033512
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 379033507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &409393507
 GameObject:
   m_ObjectHideFlags: 0
@@ -1973,7 +2071,7 @@ Transform:
   m_GameObject: {fileID: 486724577}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -35.9, y: 0, z: 64.7}
+  m_LocalPosition: {x: -32.1, y: 0.16, z: 64.89}
   m_LocalScale: {x: 7, y: 1, z: 50}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1991,6 +2089,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcee55952ca0f4c7f9307a93b8083e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReturnToLobby
+  completedLevel: 3
 --- !u!1 &520279248
 GameObject:
   m_ObjectHideFlags: 0
@@ -2003,6 +2102,7 @@ GameObject:
   - component: {fileID: 520279252}
   - component: {fileID: 520279251}
   - component: {fileID: 520279250}
+  - component: {fileID: 520279253}
   m_Layer: 0
   m_Name: Rock (8)
   m_TagString: Untagged
@@ -2040,7 +2140,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2103,6 +2203,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 520279248}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &520279253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 520279248}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &530914667
 GameObject:
   m_ObjectHideFlags: 0
@@ -2115,6 +2228,7 @@ GameObject:
   - component: {fileID: 530914671}
   - component: {fileID: 530914670}
   - component: {fileID: 530914669}
+  - component: {fileID: 530914672}
   m_Layer: 0
   m_Name: Rock (26)
   m_TagString: Untagged
@@ -2152,7 +2266,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2215,6 +2329,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 530914667}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &530914672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530914667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &546939581
 GameObject:
   m_ObjectHideFlags: 0
@@ -2465,6 +2592,7 @@ GameObject:
   - component: {fileID: 603766287}
   - component: {fileID: 603766286}
   - component: {fileID: 603766285}
+  - component: {fileID: 603766288}
   m_Layer: 0
   m_Name: Rock (22)
   m_TagString: Untagged
@@ -2502,7 +2630,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2565,6 +2693,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 603766283}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &603766288
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 603766283}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &611335428
 GameObject:
   m_ObjectHideFlags: 0
@@ -2691,6 +2832,132 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -0.6, y: 0, z: 0}
+--- !u!1 &621236173
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 621236178}
+  - component: {fileID: 621236177}
+  - component: {fileID: 621236176}
+  - component: {fileID: 621236175}
+  - component: {fileID: 621236174}
+  m_Layer: 0
+  m_Name: Trampoline (2)
+  m_TagString: Trampoline
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &621236174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621236173}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40db16cd3a0754583a9e0ed017b2be9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Trampoline
+  bounceForce: 15
+--- !u!65 &621236175
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621236173}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &621236176
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621236173}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 0835dafe41b4e442d9167b168b421471, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &621236177
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621236173}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &621236178
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 621236173}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 184.81, y: 34.06, z: 86.63}
+  m_LocalScale: {x: 50, y: 0.3, z: 6.66}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &667526366
 GameObject:
   m_ObjectHideFlags: 0
@@ -2703,6 +2970,7 @@ GameObject:
   - component: {fileID: 667526370}
   - component: {fileID: 667526369}
   - component: {fileID: 667526368}
+  - component: {fileID: 667526371}
   m_Layer: 0
   m_Name: Rock (40)
   m_TagString: Untagged
@@ -2740,7 +3008,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -2803,6 +3071,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667526366}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &667526371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 667526366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &706135200
 GameObject:
   m_ObjectHideFlags: 0
@@ -3054,6 +3335,7 @@ GameObject:
   - component: {fileID: 720778871}
   - component: {fileID: 720778870}
   - component: {fileID: 720778869}
+  - component: {fileID: 720778872}
   m_Layer: 0
   m_Name: Rock (46)
   m_TagString: Untagged
@@ -3091,7 +3373,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -3154,6 +3436,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 720778867}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &720778872
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 720778867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &769648399
 GameObject:
   m_ObjectHideFlags: 0
@@ -3373,6 +3668,7 @@ GameObject:
   - component: {fileID: 861065606}
   - component: {fileID: 861065605}
   - component: {fileID: 861065604}
+  - component: {fileID: 861065607}
   m_Layer: 0
   m_Name: Rock (19)
   m_TagString: Untagged
@@ -3410,7 +3706,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -3473,6 +3769,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 861065602}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &861065607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861065602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &894157302
 GameObject:
   m_ObjectHideFlags: 0
@@ -3485,6 +3794,7 @@ GameObject:
   - component: {fileID: 894157306}
   - component: {fileID: 894157305}
   - component: {fileID: 894157304}
+  - component: {fileID: 894157307}
   m_Layer: 0
   m_Name: Rock (45)
   m_TagString: Untagged
@@ -3522,7 +3832,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -3585,6 +3895,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 894157302}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &894157307
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 894157302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &983165470
 GameObject:
   m_ObjectHideFlags: 0
@@ -3709,6 +4032,7 @@ GameObject:
   - component: {fileID: 1008159742}
   - component: {fileID: 1008159741}
   - component: {fileID: 1008159740}
+  - component: {fileID: 1008159743}
   m_Layer: 0
   m_Name: Rock (39)
   m_TagString: Untagged
@@ -3746,7 +4070,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -3809,6 +4133,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1008159738}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1008159743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008159738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &1172787687
 GameObject:
   m_ObjectHideFlags: 0
@@ -3821,6 +4158,8 @@ GameObject:
   - component: {fileID: 1172787691}
   - component: {fileID: 1172787690}
   - component: {fileID: 1172787689}
+  - component: {fileID: 1172787693}
+  - component: {fileID: 1172787692}
   m_Layer: 0
   m_Name: Rock (30)
   m_TagString: Untagged
@@ -3858,7 +4197,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -3921,6 +4260,32 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172787687}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1172787692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172787687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 0}
+--- !u!114 &1172787693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1172787687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &1174996375
 GameObject:
   m_ObjectHideFlags: 0
@@ -3933,6 +4298,7 @@ GameObject:
   - component: {fileID: 1174996379}
   - component: {fileID: 1174996378}
   - component: {fileID: 1174996377}
+  - component: {fileID: 1174996380}
   m_Layer: 0
   m_Name: Rock (16)
   m_TagString: Untagged
@@ -3970,7 +4336,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4033,6 +4399,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1174996375}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1174996380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174996375}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &1299113866
 GameObject:
   m_ObjectHideFlags: 0
@@ -4045,6 +4424,7 @@ GameObject:
   - component: {fileID: 1299113870}
   - component: {fileID: 1299113869}
   - component: {fileID: 1299113868}
+  - component: {fileID: 1299113871}
   m_Layer: 0
   m_Name: Rock (10)
   m_TagString: Untagged
@@ -4082,7 +4462,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4145,6 +4525,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1299113866}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1299113871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299113866}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &1323545521
 GameObject:
   m_ObjectHideFlags: 0
@@ -4284,6 +4677,7 @@ GameObject:
   - component: {fileID: 1388304095}
   - component: {fileID: 1388304094}
   - component: {fileID: 1388304093}
+  - component: {fileID: 1388304096}
   m_Layer: 0
   m_Name: Rock (27)
   m_TagString: Untagged
@@ -4321,7 +4715,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4384,6 +4778,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1388304091}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1388304096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388304091}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &1423801790
 GameObject:
   m_ObjectHideFlags: 0
@@ -4396,6 +4803,7 @@ GameObject:
   - component: {fileID: 1423801794}
   - component: {fileID: 1423801793}
   - component: {fileID: 1423801792}
+  - component: {fileID: 1423801795}
   m_Layer: 0
   m_Name: Rock (13)
   m_TagString: Untagged
@@ -4433,7 +4841,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4496,6 +4904,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1423801790}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1423801795
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1423801790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &1455458837
 GameObject:
   m_ObjectHideFlags: 0
@@ -4508,6 +4929,7 @@ GameObject:
   - component: {fileID: 1455458841}
   - component: {fileID: 1455458840}
   - component: {fileID: 1455458839}
+  - component: {fileID: 1455458842}
   m_Layer: 0
   m_Name: Rock (47)
   m_TagString: Untagged
@@ -4545,7 +4967,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4608,6 +5030,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1455458837}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1455458842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1455458837}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &1471572843
 GameObject:
   m_ObjectHideFlags: 0
@@ -4620,6 +5055,7 @@ GameObject:
   - component: {fileID: 1471572847}
   - component: {fileID: 1471572846}
   - component: {fileID: 1471572845}
+  - component: {fileID: 1471572848}
   m_Layer: 0
   m_Name: Rock (14)
   m_TagString: Untagged
@@ -4657,7 +5093,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4720,6 +5156,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471572843}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1471572848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471572843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &1471703551
 GameObject:
   m_ObjectHideFlags: 0
@@ -4732,6 +5181,7 @@ GameObject:
   - component: {fileID: 1471703555}
   - component: {fileID: 1471703554}
   - component: {fileID: 1471703553}
+  - component: {fileID: 1471703556}
   m_Layer: 0
   m_Name: Rock (38)
   m_TagString: Untagged
@@ -4769,7 +5219,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4832,6 +5282,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471703551}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1471703556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1471703551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &1526136591
 GameObject:
   m_ObjectHideFlags: 0
@@ -4844,6 +5307,7 @@ GameObject:
   - component: {fileID: 1526136595}
   - component: {fileID: 1526136594}
   - component: {fileID: 1526136593}
+  - component: {fileID: 1526136596}
   m_Layer: 0
   m_Name: Rock (12)
   m_TagString: Untagged
@@ -4881,7 +5345,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -4944,6 +5408,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1526136591}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1526136596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526136591}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &1572501503
 GameObject:
   m_ObjectHideFlags: 0
@@ -4956,6 +5433,7 @@ GameObject:
   - component: {fileID: 1572501507}
   - component: {fileID: 1572501506}
   - component: {fileID: 1572501505}
+  - component: {fileID: 1572501508}
   m_Layer: 0
   m_Name: Rock (31)
   m_TagString: Untagged
@@ -4993,7 +5471,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5056,6 +5534,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1572501503}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1572501508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1572501503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &1597791872
 GameObject:
   m_ObjectHideFlags: 0
@@ -5180,6 +5671,7 @@ GameObject:
   - component: {fileID: 1676808729}
   - component: {fileID: 1676808728}
   - component: {fileID: 1676808727}
+  - component: {fileID: 1676808730}
   m_Layer: 0
   m_Name: Rock (15)
   m_TagString: Untagged
@@ -5217,7 +5709,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5280,6 +5772,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1676808725}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1676808730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676808725}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &1773756271
 GameObject:
   m_ObjectHideFlags: 0
@@ -5530,6 +6035,7 @@ GameObject:
   - component: {fileID: 1884202918}
   - component: {fileID: 1884202917}
   - component: {fileID: 1884202916}
+  - component: {fileID: 1884202919}
   m_Layer: 0
   m_Name: Rock (24)
   m_TagString: Untagged
@@ -5567,7 +6073,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5630,6 +6136,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1884202914}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1884202919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1884202914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &1904793366
 GameObject:
   m_ObjectHideFlags: 0
@@ -5642,6 +6161,7 @@ GameObject:
   - component: {fileID: 1904793370}
   - component: {fileID: 1904793369}
   - component: {fileID: 1904793368}
+  - component: {fileID: 1904793371}
   m_Layer: 0
   m_Name: Rock (20)
   m_TagString: Untagged
@@ -5679,7 +6199,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5742,6 +6262,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1904793366}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1904793371
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1904793366}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &1905151191
 GameObject:
   m_ObjectHideFlags: 0
@@ -5754,6 +6287,7 @@ GameObject:
   - component: {fileID: 1905151195}
   - component: {fileID: 1905151194}
   - component: {fileID: 1905151193}
+  - component: {fileID: 1905151196}
   m_Layer: 0
   m_Name: Rock (17)
   m_TagString: Untagged
@@ -5791,7 +6325,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5854,6 +6388,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1905151191}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1905151196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1905151191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &1918976788
 GameObject:
   m_ObjectHideFlags: 0
@@ -5866,6 +6413,7 @@ GameObject:
   - component: {fileID: 1918976792}
   - component: {fileID: 1918976791}
   - component: {fileID: 1918976790}
+  - component: {fileID: 1918976793}
   m_Layer: 0
   m_Name: Rock (9)
   m_TagString: Untagged
@@ -5903,7 +6451,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -5966,6 +6514,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1918976788}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1918976793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1918976788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &1962806684
 GameObject:
   m_ObjectHideFlags: 0
@@ -5978,6 +6539,7 @@ GameObject:
   - component: {fileID: 1962806688}
   - component: {fileID: 1962806687}
   - component: {fileID: 1962806686}
+  - component: {fileID: 1962806689}
   m_Layer: 0
   m_Name: Rock (21)
   m_TagString: Untagged
@@ -6015,7 +6577,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6078,6 +6640,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1962806684}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1962806689
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1962806684}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &1963661384
 GameObject:
   m_ObjectHideFlags: 0
@@ -6090,6 +6665,7 @@ GameObject:
   - component: {fileID: 1963661388}
   - component: {fileID: 1963661387}
   - component: {fileID: 1963661386}
+  - component: {fileID: 1963661389}
   m_Layer: 0
   m_Name: Rock (41)
   m_TagString: Untagged
@@ -6127,7 +6703,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6190,6 +6766,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1963661384}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1963661389
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1963661384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &1964518661
 GameObject:
   m_ObjectHideFlags: 0
@@ -6202,6 +6791,7 @@ GameObject:
   - component: {fileID: 1964518665}
   - component: {fileID: 1964518664}
   - component: {fileID: 1964518663}
+  - component: {fileID: 1964518666}
   m_Layer: 0
   m_Name: Rock (18)
   m_TagString: Untagged
@@ -6239,7 +6829,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6302,6 +6892,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1964518661}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1964518666
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1964518661}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &2017488360
 GameObject:
   m_ObjectHideFlags: 0
@@ -6316,6 +6919,7 @@ GameObject:
   - component: {fileID: 2017488362}
   - component: {fileID: 2017488361}
   - component: {fileID: 2017488366}
+  - component: {fileID: 2017488367}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -6460,6 +7064,29 @@ MonoBehaviour:
   jumpForce: 7
   moveAction: {fileID: 5543333850938133838, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   jumpAction: {fileID: 8984548526590713646, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+--- !u!114 &2017488367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2017488360}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0eaf8e9e0b9a8481599682c29a808e27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelUnlockSystem
+  levelPortals:
+  - portal: {fileID: 7192993012891402472, guid: 35240a1dda7ee4bcca7a6ca41e6a0067, type: 3}
+    levelNumber: 1
+  - portal: {fileID: 3957293996078038381, guid: 6892246f96cc14c978f39e62f85b88f5, type: 3}
+    levelNumber: 2
+  - portal: {fileID: 3620591913143127106, guid: e421ccd9554164a9db5c11a0777d5139, type: 3}
+    levelNumber: 3
+  - portal: {fileID: 6185362693581080602, guid: be152152cf01e4137baa7c783e9301f6, type: 3}
+    levelNumber: 4
+  - portal: {fileID: 6325129109287596078, guid: 3a9b47a5528c94af88ac9f0d2e3d21b1, type: 3}
+    levelNumber: 5
 --- !u!1 &2052911640
 GameObject:
   m_ObjectHideFlags: 0
@@ -6472,6 +7099,7 @@ GameObject:
   - component: {fileID: 2052911644}
   - component: {fileID: 2052911643}
   - component: {fileID: 2052911642}
+  - component: {fileID: 2052911645}
   m_Layer: 0
   m_Name: Rock (37)
   m_TagString: Untagged
@@ -6509,7 +7137,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6572,6 +7200,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2052911640}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2052911645
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2052911640}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &2110607440
 GameObject:
   m_ObjectHideFlags: 0
@@ -6584,6 +7225,7 @@ GameObject:
   - component: {fileID: 2110607444}
   - component: {fileID: 2110607443}
   - component: {fileID: 2110607442}
+  - component: {fileID: 2110607445}
   m_Layer: 0
   m_Name: Rock (33)
   m_TagString: Untagged
@@ -6621,7 +7263,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6684,6 +7326,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2110607440}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2110607445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2110607440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1 &2142386049
 GameObject:
   m_ObjectHideFlags: 0
@@ -6737,6 +7392,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bcee55952ca0f4c7f9307a93b8083e00, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ReturnToLobby
+  completedLevel: 1
 --- !u!23 &2142386052
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -6821,6 +7477,7 @@ GameObject:
   - component: {fileID: 2145520361}
   - component: {fileID: 2145520360}
   - component: {fileID: 2145520359}
+  - component: {fileID: 2145520362}
   m_Layer: 0
   m_Name: Rock (29)
   m_TagString: Untagged
@@ -6858,7 +7515,7 @@ BoxCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
@@ -6921,6 +7578,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2145520357}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &2145520362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2145520357}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4654fe75188e64e9e88f93c1c27fe223, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RespawnGround
+  respawnPoint: {fileID: 281981805}
 --- !u!1001 &5623299228530949999
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6996,6 +7666,7 @@ SceneRoots:
   - {fileID: 546939586}
   - {fileID: 268905650}
   - {fileID: 127404355}
+  - {fileID: 621236178}
   - {fileID: 806173122}
   - {fileID: 715942123}
   - {fileID: 706135201}
