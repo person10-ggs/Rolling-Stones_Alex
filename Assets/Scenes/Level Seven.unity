@@ -3553,6 +3553,12 @@ MonoBehaviour:
     levelNumber: 6
   - portal: {fileID: 4619134754871880995, guid: 0b4b0200313a54a2da42166a18590383, type: 3}
     levelNumber: 7
+  - portal: {fileID: 1016514432905950724, guid: 7d48ae09506c14e2aaf5717bad59c811, type: 3}
+    levelNumber: 8
+  - portal: {fileID: 6031031418657049200, guid: dddf0ea6ab6524e7c98b4baa4fb516e7, type: 3}
+    levelNumber: 9
+  - portal: {fileID: 8953049801993934847, guid: ba652b83032ba450d8ba2c19d9b86597, type: 3}
+    levelNumber: 10
 --- !u!1 &2033766610
 GameObject:
   m_ObjectHideFlags: 0
