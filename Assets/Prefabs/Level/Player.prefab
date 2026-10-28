@@ -182,3 +182,5 @@ MonoBehaviour:
     levelNumber: 4
   - portal: {fileID: 0}
     levelNumber: 5
+  - portal: {fileID: 0}
+    levelNumber: 6
