@@ -247,8 +247,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 39653852}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1 &50572997
 GameObject:
   m_ObjectHideFlags: 0
@@ -386,8 +386,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 87626929}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1 &92660381 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4687870226336156606, guid: 18e74ba05ea4e42458ba3d7577a6ffe5, type: 3}
@@ -413,8 +413,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 92660383}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1 &120824904 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4687870226336156606, guid: 18e74ba05ea4e42458ba3d7577a6ffe5, type: 3}
@@ -440,8 +440,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 120824906}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1 &186724126
 GameObject:
   m_ObjectHideFlags: 0
@@ -579,8 +579,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 192480168}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1001 &196456239
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1046,8 +1046,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 360900368}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1 &409393507
 GameObject:
   m_ObjectHideFlags: 0
@@ -1472,8 +1472,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 538252277}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1 &545652442 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4687870226336156606, guid: 18e74ba05ea4e42458ba3d7577a6ffe5, type: 3}
@@ -1499,8 +1499,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 545652444}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1 &546939581
 GameObject:
   m_ObjectHideFlags: 0
@@ -1652,8 +1652,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 556619997}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1 &558013465 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4687870226336156606, guid: 18e74ba05ea4e42458ba3d7577a6ffe5, type: 3}
@@ -1679,8 +1679,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 558013467}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1 &597660305
 GameObject:
   m_ObjectHideFlags: 0
@@ -1984,8 +1984,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 775865388}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1 &806173121
 GameObject:
   m_ObjectHideFlags: 0
@@ -2681,8 +2681,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 1031770055}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1 &1037038548
 GameObject:
   m_ObjectHideFlags: 0
@@ -2811,8 +2811,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 1037038550}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1 &1037053630
 GameObject:
   m_ObjectHideFlags: 0
@@ -2941,8 +2941,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 1037053632}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1001 &1054878292
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3288,8 +3288,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 1296397594}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1 &1323545521
 GameObject:
   m_ObjectHideFlags: 0
@@ -3506,8 +3506,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 1359221562}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1001 &1403249523
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4159,8 +4159,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 1631929490}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1 &1664237668 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4687870226336156606, guid: 18e74ba05ea4e42458ba3d7577a6ffe5, type: 3}
@@ -4186,8 +4186,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 1664237670}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1 &1704230348 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4687870226336156606, guid: 18e74ba05ea4e42458ba3d7577a6ffe5, type: 3}
@@ -4213,8 +4213,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 1704230350}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1001 &1716537364
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4368,8 +4368,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 1749091873}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1001 &1758016101
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4520,8 +4520,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 1765700163}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1 &1773756271
 GameObject:
   m_ObjectHideFlags: 0
@@ -4903,8 +4903,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 1925901804}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1 &1994385989 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4687870226336156606, guid: 18e74ba05ea4e42458ba3d7577a6ffe5, type: 3}
@@ -4930,8 +4930,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 1994385991}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1001 &2013450207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5180,6 +5180,14 @@ MonoBehaviour:
     levelNumber: 5
   - portal: {fileID: 4108468537616615545, guid: 9a9786f93b89c44efa0435d3b050fac9, type: 3}
     levelNumber: 6
+  - portal: {fileID: 4619134754871880995, guid: 0b4b0200313a54a2da42166a18590383, type: 3}
+    levelNumber: 7
+  - portal: {fileID: 1016514432905950724, guid: 7d48ae09506c14e2aaf5717bad59c811, type: 3}
+    levelNumber: 8
+  - portal: {fileID: 6031031418657049200, guid: dddf0ea6ab6524e7c98b4baa4fb516e7, type: 3}
+    levelNumber: 9
+  - portal: {fileID: 8953049801993934847, guid: ba652b83032ba450d8ba2c19d9b86597, type: 3}
+    levelNumber: 10
 --- !u!1 &2017912735 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4687870226336156606, guid: 18e74ba05ea4e42458ba3d7577a6ffe5, type: 3}
@@ -5205,8 +5213,8 @@ MonoBehaviour:
   targetRenderer: {fileID: 2017912737}
   startVisible: 1
   useTimer: 1
-  minTime: 10
-  maxTime: 20
+  minTime: 5
+  maxTime: 10
 --- !u!1001 &2038030420
 PrefabInstance:
   m_ObjectHideFlags: 0
