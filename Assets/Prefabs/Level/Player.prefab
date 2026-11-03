@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 4574679086956110205}
   - component: {fileID: 8337835926179598270}
   - component: {fileID: -7541265271511025306}
+  - component: {fileID: 260369260591377203}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -184,3 +185,35 @@ MonoBehaviour:
     levelNumber: 5
   - portal: {fileID: 0}
     levelNumber: 6
+  - portal: {fileID: 4619134754871880995, guid: 0b4b0200313a54a2da42166a18590383, type: 3}
+    levelNumber: 7
+  - portal: {fileID: 1016514432905950724, guid: 7d48ae09506c14e2aaf5717bad59c811, type: 3}
+    levelNumber: 8
+  - portal: {fileID: 6031031418657049200, guid: dddf0ea6ab6524e7c98b4baa4fb516e7, type: 3}
+    levelNumber: 9
+  - portal: {fileID: 8953049801993934847, guid: ba652b83032ba450d8ba2c19d9b86597, type: 3}
+    levelNumber: 10
+--- !u!114 &260369260591377203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 911828684693135567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e05533f9f4f884da98856150c34faa71, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SkinManager
+  availableSkins:
+  - {fileID: 2100000, guid: a8299464a7b2d4b849100d0c8320a3b4, type: 2}
+  - {fileID: 2100000, guid: b18e16cfb597b42b1b70ca5bbf454a6c, type: 2}
+  - {fileID: 2100000, guid: b47b2039768cc4512a4fd051c960b51d, type: 2}
+  - {fileID: 2100000, guid: 77ab01c80a7d947e39ccf72c73edbb9c, type: 2}
+  - {fileID: 2100000, guid: 4daa8a71ebec8491da16cac445d69737, type: 2}
+  - {fileID: 2100000, guid: e01f4c8889c9148b2baae12607e71771, type: 2}
+  - {fileID: 2100000, guid: fbdcb2894c31a4efaaac28fcd39835eb, type: 2}
+  - {fileID: 2100000, guid: a3982eeabf81746e8b8423d7618bf6d0, type: 2}
+  - {fileID: 2100000, guid: 1183027fbc5894d309dd25ef864cc7ff, type: 2}
+  - {fileID: 2100000, guid: f2712d02653374b6d989394bee5fbf53, type: 2}
+  targetRenderer: {fileID: 2273449995868226923}
