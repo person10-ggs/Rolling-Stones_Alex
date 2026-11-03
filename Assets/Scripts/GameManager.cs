@@ -1,73 +1,115 @@
-using UnityEngine;
-using TMPro;  // Brings in the Text Mesh script package into this script
+/*
+
+GAMEOBJECT: Game Manager
+
+REQUIRED DEPENDENCIES: TextMeshProUGUI, AudioSource
+
+DESCRIPTION: Tracks level collectibles, handles win sequence, awards level completion coins via PlayerPrefs, and reloads the level.
+
+VERSION 1.1: Added coin reward logic triggered upon level win to feed the Gacha skin system.
+*/
+
 using System.Collections;
+using TMPro;
+using UnityEngine;
 using UnityEngine.SceneManagement;
-/************************************************************
-* COMPONENT OF: Game Manager
-* REQUIRED DEPENDENCIES: TextMeshProUGUI
-* DESCRIPTION: Handles collectible tracking and win condition 
-*              for the game
-* AUTHOR: Your name
-* VERSION: 1.0
-*************************************************************/
+
 public class GameManager : MonoBehaviour
-{ 
-    // UI text that shows collectibles remaining (assign in inspector)
-    [SerializeField] private TextMeshProUGUI RemainingTextUI;
-    [SerializeField] private AudioClip winClip;
+{
+[SerializeField] private TextMeshProUGUI RemainingTextUI;
+[SerializeField] private AudioClip winClip;
 
-    // Audio source for victory sound
-    private AudioSource audioSource;
+private AudioSource audioSource;
+private int numberOfCollectibles;
 
-    // Tracks how many collectibles are left to collect
-    private int numberOfCollectibles;
+private const string CoinSaveKey = "PlayerCoins";
 
-    // Initialize everything at start
-    void Start()
-    {
-        // Assigns the AudioSource component to the audioSource field        
-        audioSource = GetComponent<AudioSource>();
-        
-        // Determines how many Collectibles are in this scene
-        numberOfCollectibles = GameObject.FindGameObjectsWithTag("Collectible").Length;
-        
-        // Initialize the UI display
-        UpdateRemainingUI();
-    }
-
-    // Called by the CollectibleController when a collectible is picked up - decrements count
-    public void UpdateRemaining()
-    {
-        numberOfCollectibles--;
-        UpdateRemainingUI(); // Update display immediately when score changes
-    }
-
-    // Updates UI text - shows remaining count message
-    // Updates UI text - shows remaining count or "You Win" message
-    private void UpdateRemainingUI()
-    {
-        if (RemainingTextUI != null && numberOfCollectibles > 0)
-        {
-            RemainingTextUI.text = "Collectibles Remaining: " + numberOfCollectibles;
-        }
-        else
-        {
-            StartCoroutine("EndGame");
-        }
-    }
-    IEnumerator EndGame()
-    {
-        RemainingTextUI.text = "You Win";
-		audioSource.clip = winClip;
-        audioSource.Play();
-        //idk what is supposed to be here lol
-        yield return new WaitForSeconds(audioSource.clip.length);   
-        
-        // Reloads the currently active scene
-        Scene currentScene = SceneManager.GetActiveScene();
-        SceneManager.LoadScene(currentScene.name);
-
-    }
-    
-
+private void Start()
+{
+    InitializeManager();
 }
+
+private void Update()
+{
+    // Update reserved for delegated method execution only
+}
+
+// Configures audio source and counts total collectibles present at level launch
+private void InitializeManager()
+{
+    audioSource = GetComponent<AudioSource>();
+    numberOfCollectibles = GameObject.FindGameObjectsWithTag("Collectible").Length;
+    UpdateRemainingUI();
+}
+
+// Decrements remaining collectible count when triggered by collectible items
+public void UpdateRemaining()
+{
+    numberOfCollectibles--;
+    UpdateRemainingUI();
+}
+
+// Updates HUD text or initiates end game routine when all collectibles are gathered
+private void UpdateRemainingUI()
+{
+    if (RemainingTextUI != null && numberOfCollectibles > 0)
+    {
+        RemainingTextUI.text = "Collectibles Remaining: " + numberOfCollectibles;
+    }
+    else
+    {
+        StartCoroutine(EndGame());
+    }
+}
+
+// Handles victory audio playback, coin awarding, and scene reload delay
+private IEnumerator EndGame()
+{
+    if (RemainingTextUI != null)
+    {
+        RemainingTextUI.text = "You Win!";
+    }
+
+    if (audioSource != null && winClip != null)
+    {
+        audioSource.clip = winClip;
+        audioSource.Play();
+    }
+
+    // Award 1 coin for completing the level
+    AwardCompletionCoin();
+
+    if (audioSource != null && audioSource.clip != null)
+    {
+        yield return new WaitForSeconds(audioSource.clip.length);
+    }
+    else
+    {
+        yield return new WaitForSeconds(1f);
+    }
+
+    Scene currentScene = SceneManager.GetActiveScene();
+    SceneManager.LoadScene(currentScene.name);
+}
+
+// Increments total saved coin count in PlayerPrefs persistent storage
+private void AwardCompletionCoin()
+{
+    int currentCoins = PlayerPrefs.GetInt(CoinSaveKey, 0);
+    PlayerPrefs.SetInt(CoinSaveKey, currentCoins + 1);
+    PlayerPrefs.Save();
+
+    Debug.Log("Level Win! Coin awarded. Total Coins: " + (currentCoins + 1));
+}
+}
+
+/*
+
+GAMEOBJECT: Player (Ball) / Gacha Manager Object
+
+REQUIRED DEPENDENCIES: Renderer
+
+DESCRIPTION: Manages available skin materials, processes Gacha spins, deducts coins, and persists active equipped skin across scenes.
+
+VERSION 1.0: Created Gacha Skin system script handling coin expenditure, random skin selection, and persistent skin application.
+*/
